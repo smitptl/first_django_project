@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>welcome</title>
+        <link href="{% static 'css/index.css' %}" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         {{ name }}
-        <h1>Hello, I am coming from the template file</h1>
-        <h2>Welcome to the template</h2>
-        <img src = "{% static '' }"
+        <h1 class="heading">Hello, I am coming from the template file</h1>
+        <h2 class="heading1">Welcome to the template</h2>
+        <img src = "{% static 'image.png'%}">
     </body>
 </html>
